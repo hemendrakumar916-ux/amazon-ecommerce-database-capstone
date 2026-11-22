@@ -1,0 +1,63 @@
+{
+  "database": "amazon_capstone_project_3",
+  "export_started": "2026-11-22 13:51:06 IST",
+  "metrics": {
+    "PK": 17,
+    "FK": 22,
+    "UNIQUE": 13,
+    "CHECK": 20
+  },
+  "tables": 17,
+  "total_rows": 57,
+  "rows_by_table": {
+    "addresses": 4,
+    "cart_items": 2,
+    "carts": 1,
+    "categories": 3,
+    "customers": 3,
+    "inventory": 8,
+    "order_items": 2,
+    "orders": 1,
+    "payments": 1,
+    "products": 5,
+    "refunds": 1,
+    "returns": 1,
+    "reviews": 1,
+    "seller_listings": 8,
+    "sellers": 4,
+    "shipments": 2,
+    "tracking_events": 10
+  },
+  "order_1_status": "SHIPPED",
+  "snapshot_integrity_tests": {
+    "order_shipping_address_customer_mismatch": {
+      "violations": 0,
+      "ids": []
+    },
+    "order_total_mismatch": {
+      "violations": 0,
+      "ids": []
+    },
+    "shipment_seller_not_in_order": {
+      "violations": 0,
+      "ids": []
+    },
+    "incorrect_return_quantity": {
+      "violations": 0,
+      "ids": []
+    },
+    "refund_payment_order_mismatch": {
+      "violations": 0,
+      "ids": []
+    },
+    "refund_greater_than_payment": {
+      "violations": 0,
+      "ids": []
+    },
+    "placed_with_advanced_shipments": {
+      "violations": 0,
+      "ids": []
+    }
+  },
+  "restore_test": "not_executed"
+}
