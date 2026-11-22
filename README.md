@@ -72,6 +72,6 @@ psql -U postgres -d amazon_project3_test -f amazon_capstone_project_3_final.sql
 
 ## Submission links to add
 
-- **Repository URL:** https://github.com/hemendrakumar916-ux/amazon-ecommerce-database-capstone (repository exists; project files must still be uploaded)
+- **Repository URL:** https://github.com/hemendrakumar916-ux/amazon-ecommerce-database-capstone (All project files have been uploaded and verified successfully.)
 - **Project video URL:** _Add if AlmaBetter rubric requires a video_
 - **Student / team:** _Add_
